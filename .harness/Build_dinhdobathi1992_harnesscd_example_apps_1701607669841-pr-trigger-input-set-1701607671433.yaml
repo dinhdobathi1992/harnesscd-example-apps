@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dinhdobathi1992_harnesscd_example_apps_1701607669841-pr-trigger-input-set
+  identifier: Build_dinhdobathi1992_harnesscd_example_apps_1701607669841prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: thiprj
+  pipeline:
+    identifier: Build_dinhdobathi1992_harnesscd_example_apps_1701607669841
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
